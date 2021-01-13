@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li h1 {
+    float: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(207, 130, 238);
+    margin-left: 1%;
+    padding: 10px;
+
+  }
+  .button1{
+    margin-right: 650px;
+    margin-top: 50px;
+    background-color: white;
+    color: hotpink;
+}
+  li a,button{
+      float: right;
+  }
+  
+  li a {
+    display: inline;
+    color:black ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 1%;
+  }
+  
+  li a:hover {
+    color: orangered;
+  }
+  button{
+      margin-top: 2%;
+      margin-right: 1%;
+      background-color: hotpink;
+      padding: 5px;
+      border-radius: 25px;
+      border:0;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 160px;
+      height: 40px;
+  }
+
+  h2{
+      font-size: 50px;
+      padding: 20px;
+      color: white;
+  }
+  header{
+      background-color: whitesmoke;
+      height: 100px;
+  }
+  .headerlist{
+    margin-right: 200px;
+  }
+  #headerh1{
+    padding: 20px;
+    font-size: 50px;
+  }
+  .banner{
+      background:linear-gradient(0deg,rgba(207,130,238,0.6),rgba(207,130,238,0.6)), url("img1.jpg");
+      height: 500px;
+      text-align: center;
+  }
+  #bannerhead{
+      text-align: center;
+  }
+  .bannerh1{
+    padding-top: 150px;
+  }
+  .bannerpara{
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+      color: white;
+  }
+  .sec2{
+      display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: white;
+    
+  }
+  .sec2 > div {
+    background-color:white;
+    margin: 10px;
+    padding: 30px;
+    
+  }
+  .sec3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: white;
+  }
+  .sec3 > div {
+    background-color:white;
+    margin: 10px;
+    padding: 30px;
+    
+  }
+#leftb{
+    float: left;
+    margin-top: 20px;
+    padding: 15px;
+}
+#lefth1{
+    color:hotpink;
+    
+}
+.leftp{
+    
+}
+.right{
+    height: 500px;
+}
+.left{
+  height:500px;
+}
+
+.img2{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    
+    
+   border-radius: 15px 80px 80px 5px;
+  }
+      
+  #rightb{
+    width:300px;
+    height:300px;
+    padding:30px;
+    border: 2px solid red;
+    border-radius: 15px 80px 80px 5px;
+    z-index: 5;
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+}
+
+.div3{
+  text-align: center;
+  padding: 80px;
+}
+#div3h1{
+  color:hotpink;
+}
+
+.img3{
+  width: 100px;
+  height: 100px;
+}
+
+#sec3h4{
+  color: black;
+}
+
+.sec4{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color: white;
+  height: 400px;
+}
+.sec4 > div {
+  background-color:white;
+  margin: 10px;
+  padding: 30px;
+  
+}
+.sec4b{
+  width:300px;
+  height:300px;
+  padding:30px;
+  border: 2px solid red;
+  border-radius: 50px 80px 80px 50px;
+ 
+
+}
+
+.img4{
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  
+  z-index: 5;
+  position: relative;
+ border-radius: 50px 80px 80px 50px;
+ bottom: 450px;
+}
+
+#sec4h1{
+  color: hotpink;
+  font-size: 40px;
+}
+
+.sec5{
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 2fr;
+  background-color:white;
+}
+.sec5 > div {
+  background-color:rgb(207, 197, 197);
+  margin: 10px;
+  padding: 80px;
+  
+}
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+#sec5h1{
+  color: hotpink;
+}
+strong{
+  font-family:cursive;
+}
+
+.img5{
+  width: 600px;
+  height: 400px;
+  padding: 30px;
+}
+
+.sec6{
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  background-color:white;
+  height: 600px;
+}
+.sec6 > div {
+  text-align: center;
+  background-color:white;
+  margin-left: 100px;
+  padding: 50px;
+
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 400px;
+}
+
+
+.sec6upper{
+  text-align: center;
+  padding: 80px;
+}
+
+.sec6img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+#sec6uppers{
+  color: hotpink;
+}
+.sec71{
+  background-color: hotpink;
+  padding: 20px;
+ 
+}
+#sec71h1{
+  color: white;
+  padding: 20px;
+}
+.sec72{
+  
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color:white;
+  background:linear-gradient(0deg,rgba(17, 15, 15, 0),rgba(12, 12, 12, 0.6)), url("sec72.jpeg");
+}
+.sec72 > div {
+  background-color:transparent;
+  margin: 10px;
+  padding: 30px;
+  margin-top: 90px;
+  margin-left: 110px;
+
+}
+.sec72d{
+    color: white;
+    font-size: 30px;
+}
+
+#sec72c{
+  color: white;
+  font-size: 40px;
+
+}
+#sec72e{
+  color: white;
+  font-size: 20px;
+}
+  
+.sec8{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  background-color:white;
+}
+
+.sec8 > div {
+  background-color:white;
+  margin: 10px;
+  padding: 30px;
+  
+  
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+}
+
+.sec8li{
+  display:inline;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color:darkgrey;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: hotpink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  width: 85%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+#iconimg{
+  width: 15px;
+  height: 15px;
+}
+
+#sec8h1{
+  color:hotpink;
+  font-size: 30px;
+  text-align: center;
+}
+span{
+  color: red;
+}
+#sec8p{
+  text-align: center;
+}
+#sec8div{
+  text-align: center;
+  
+}
+
+#sec71b{
+  color:hotpink;
+  background-color: white;
+}
+
+
